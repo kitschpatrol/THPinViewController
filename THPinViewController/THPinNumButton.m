@@ -42,7 +42,7 @@
     _numberLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)number];
     _numberLabel.textAlignment = NSTextAlignmentCenter;
 
-    _numberLabel.font = [UIFont fontWithName:@"Libertad-Bold" size:(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? 41.0f : 32.0f];
+    _numberLabel.font = [UIFont fontWithName:@"Libertad-Thin" size:(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? 41.0f : 32.0f];
     [contentView addSubview:_numberLabel];
     [contentView
         addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[numberLabel]|" options:0 metrics:nil views:@{
